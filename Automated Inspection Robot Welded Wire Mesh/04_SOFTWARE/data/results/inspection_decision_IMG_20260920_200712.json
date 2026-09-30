@@ -1,0 +1,47 @@
+{
+  "source_name": "IMG_20260920_200712.jpg",
+  "final_status": "REVIEW",
+  "reasons": [
+    "Incomplete grid intersection coverage: 18/20 expected intersections detected (90.0% completeness).",
+    "8 intersection(s) flagged POTENTIALLY_ANOMALOUS (OBSERVATION - HUMAN VERIFICATION REQUIRED; visual arm mismatch).",
+    "Vertical spacing calibration is PROVISIONAL (single-axis ruler calibration; plane offset and lens distortion not corrected).",
+    "Horizontal spacing is UNCALIBRATED (preserving documented position-dependent horizontal calibration limitation; no single global scale invented).",
+    "Product profile P001 (A-1 Kavach / Anti-Climb 358) has no validated tolerance configured. Measured deviation from nominal cannot produce an acceptance decision."
+  ],
+  "spacing_status": "PROFILE_WITHOUT_TOLERANCE",
+  "intersection_status": "ANOMALIES_DETECTED",
+  "calibration_status": "PROVISIONAL_AND_UNCALIBRATED",
+  "configured_tolerance_status": "NO_TOLERANCE_CONFIGURED",
+  "supporting_evidence": {
+    "wire_detection": {
+      "num_horizontal_wires": 5,
+      "num_vertical_wires": 4,
+      "num_intersections": 18,
+      "expected_intersections": 20,
+      "intersection_completeness": 0.9
+    },
+    "weld_intersection": {
+      "num_analyzed": 18,
+      "num_normal": 10,
+      "num_potentially_anomalous": 8,
+      "num_insufficient_evidence": 0
+    },
+    "mesh_spacing": {
+      "num_vertical_spacings": 4,
+      "num_horizontal_spacings": 3,
+      "mean_vertical_spacing_px": 270.0,
+      "mean_vertical_spacing_mm": 24.55,
+      "mean_horizontal_spacing_px": 280.5,
+      "mean_horizontal_spacing_mm": null
+    },
+    "product_profile": {
+      "profile_id": "P001",
+      "name": "A-1 Kavach / Anti-Climb 358",
+      "nominal_vertical_spacing_mm": 12.7,
+      "nominal_horizontal_spacing_mm": 76.2,
+      "vertical_tolerance_mm": null,
+      "horizontal_tolerance_mm": null
+    }
+  },
+  "notes": "INSPECTION REVIEW: Available evidence is provisional, uncalibrated, anomalous, or incomplete. Manual verification is required before making an acceptance decision."
+}

@@ -1,0 +1,12 @@
+.git
+node_modules
+dist
+**/__pycache__
+**/*.py[cod]
+**/.pytest_cache
+**/.venv
+**/venv
+.env
+inspection_results
+a1zip/a1
+Automated Inspection Robot Welded Wire Mesh/04_SOFTWARE/data/processed

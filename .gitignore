@@ -1,0 +1,14 @@
+node_modules/
+dist/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.venv/
+**/venv/
+.env
+.env.*
+!.env.example
+**/.streamlit/secrets.toml
+inspection_results/
+a1zip/a1/
+Automated Inspection Robot Welded Wire Mesh/04_SOFTWARE/data/processed/

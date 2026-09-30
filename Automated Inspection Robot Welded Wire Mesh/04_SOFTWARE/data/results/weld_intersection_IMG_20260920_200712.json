@@ -1,0 +1,541 @@
+{
+  "source_name": "IMG_20260920_200712.jpg",
+  "num_analyzed": 18,
+  "num_normal": 10,
+  "num_potentially_anomalous": 8,
+  "num_insufficient_evidence": 0,
+  "assessments": [
+    {
+      "x_px": 135.5,
+      "y_px": 230.0,
+      "horizontal_wire_index": 0,
+      "vertical_wire_index": 0,
+      "is_top_row": true,
+      "is_bottom_row": false,
+      "is_left_column": true,
+      "is_right_column": false,
+      "expected_arms": [
+        "down",
+        "right"
+      ],
+      "observed_arms": [
+        "down",
+        "right"
+      ],
+      "arm_intensities": {
+        "up": 199.83,
+        "down": 112.6,
+        "left": 153.37,
+        "right": 141.06
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "NORMAL",
+      "notes": "Observed arms match the pattern expected for this grid position."
+    },
+    {
+      "x_px": 694.5,
+      "y_px": 230.0,
+      "horizontal_wire_index": 0,
+      "vertical_wire_index": 2,
+      "is_top_row": true,
+      "is_bottom_row": false,
+      "is_left_column": false,
+      "is_right_column": false,
+      "expected_arms": [
+        "down",
+        "left",
+        "right"
+      ],
+      "observed_arms": [
+        "down",
+        "left",
+        "right"
+      ],
+      "arm_intensities": {
+        "up": 170.54,
+        "down": 101.36,
+        "left": 134.66,
+        "right": 137.16
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "NORMAL",
+      "notes": "Observed arms match the pattern expected for this grid position."
+    },
+    {
+      "x_px": 135.5,
+      "y_px": 486.5,
+      "horizontal_wire_index": 1,
+      "vertical_wire_index": 0,
+      "is_top_row": false,
+      "is_bottom_row": false,
+      "is_left_column": true,
+      "is_right_column": false,
+      "expected_arms": [
+        "down",
+        "right",
+        "up"
+      ],
+      "observed_arms": [
+        "down",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 117.51,
+        "down": 86.13,
+        "left": 170.54,
+        "right": 161.08
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "POTENTIALLY_ANOMALOUS",
+      "notes": "OBSERVATION - HUMAN VERIFICATION REQUIRED. expected but not observed: ['right']. This flags a visual mismatch only - it is not a defect, weld-quality, or material-property claim."
+    },
+    {
+      "x_px": 405.5,
+      "y_px": 486.5,
+      "horizontal_wire_index": 1,
+      "vertical_wire_index": 1,
+      "is_top_row": false,
+      "is_bottom_row": false,
+      "is_left_column": false,
+      "is_right_column": false,
+      "expected_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "observed_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 88.72,
+        "down": 69.44,
+        "left": 106.18,
+        "right": 104.12
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "NORMAL",
+      "notes": "Observed arms match the pattern expected for this grid position."
+    },
+    {
+      "x_px": 694.5,
+      "y_px": 486.5,
+      "horizontal_wire_index": 1,
+      "vertical_wire_index": 2,
+      "is_top_row": false,
+      "is_bottom_row": false,
+      "is_left_column": false,
+      "is_right_column": false,
+      "expected_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "observed_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 77.95,
+        "down": 67.98,
+        "left": 67.42,
+        "right": 70.43
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "NORMAL",
+      "notes": "Observed arms match the pattern expected for this grid position."
+    },
+    {
+      "x_px": 977.0,
+      "y_px": 486.5,
+      "horizontal_wire_index": 1,
+      "vertical_wire_index": 3,
+      "is_top_row": false,
+      "is_bottom_row": false,
+      "is_left_column": false,
+      "is_right_column": true,
+      "expected_arms": [
+        "down",
+        "left",
+        "up"
+      ],
+      "observed_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 77.42,
+        "down": 68.71,
+        "left": 76.02,
+        "right": 77.84
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "POTENTIALLY_ANOMALOUS",
+      "notes": "OBSERVATION - HUMAN VERIFICATION REQUIRED. observed but not expected for this grid position: ['right']. This flags a visual mismatch only - it is not a defect, weld-quality, or material-property claim."
+    },
+    {
+      "x_px": 135.5,
+      "y_px": 760.25,
+      "horizontal_wire_index": 2,
+      "vertical_wire_index": 0,
+      "is_top_row": false,
+      "is_bottom_row": false,
+      "is_left_column": true,
+      "is_right_column": false,
+      "expected_arms": [
+        "down",
+        "right",
+        "up"
+      ],
+      "observed_arms": [
+        "down",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 80.5,
+        "down": 71.55,
+        "left": 158.19,
+        "right": 149.25
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "POTENTIALLY_ANOMALOUS",
+      "notes": "OBSERVATION - HUMAN VERIFICATION REQUIRED. expected but not observed: ['right']. This flags a visual mismatch only - it is not a defect, weld-quality, or material-property claim."
+    },
+    {
+      "x_px": 405.5,
+      "y_px": 760.25,
+      "horizontal_wire_index": 2,
+      "vertical_wire_index": 1,
+      "is_top_row": false,
+      "is_bottom_row": false,
+      "is_left_column": false,
+      "is_right_column": false,
+      "expected_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "observed_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 105.86,
+        "down": 99.42,
+        "left": 124.17,
+        "right": 127.44
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "NORMAL",
+      "notes": "Observed arms match the pattern expected for this grid position."
+    },
+    {
+      "x_px": 694.5,
+      "y_px": 760.25,
+      "horizontal_wire_index": 2,
+      "vertical_wire_index": 2,
+      "is_top_row": false,
+      "is_bottom_row": false,
+      "is_left_column": false,
+      "is_right_column": false,
+      "expected_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "observed_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 88.59,
+        "down": 97.6,
+        "left": 103.3,
+        "right": 104.18
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "NORMAL",
+      "notes": "Observed arms match the pattern expected for this grid position."
+    },
+    {
+      "x_px": 977.0,
+      "y_px": 760.25,
+      "horizontal_wire_index": 2,
+      "vertical_wire_index": 3,
+      "is_top_row": false,
+      "is_bottom_row": false,
+      "is_left_column": false,
+      "is_right_column": true,
+      "expected_arms": [
+        "down",
+        "left",
+        "up"
+      ],
+      "observed_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 109.27,
+        "down": 110.69,
+        "left": 80.83,
+        "right": 84.09
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "POTENTIALLY_ANOMALOUS",
+      "notes": "OBSERVATION - HUMAN VERIFICATION REQUIRED. observed but not expected for this grid position: ['right']. This flags a visual mismatch only - it is not a defect, weld-quality, or material-property claim."
+    },
+    {
+      "x_px": 135.5,
+      "y_px": 1013.0,
+      "horizontal_wire_index": 3,
+      "vertical_wire_index": 0,
+      "is_top_row": false,
+      "is_bottom_row": false,
+      "is_left_column": true,
+      "is_right_column": false,
+      "expected_arms": [
+        "down",
+        "right",
+        "up"
+      ],
+      "observed_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 84.32,
+        "down": 70.91,
+        "left": 115.87,
+        "right": 104.5
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "POTENTIALLY_ANOMALOUS",
+      "notes": "OBSERVATION - HUMAN VERIFICATION REQUIRED. observed but not expected for this grid position: ['left']. This flags a visual mismatch only - it is not a defect, weld-quality, or material-property claim."
+    },
+    {
+      "x_px": 405.5,
+      "y_px": 1013.0,
+      "horizontal_wire_index": 3,
+      "vertical_wire_index": 1,
+      "is_top_row": false,
+      "is_bottom_row": false,
+      "is_left_column": false,
+      "is_right_column": false,
+      "expected_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "observed_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 118.04,
+        "down": 105.48,
+        "left": 118.23,
+        "right": 99.3
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "NORMAL",
+      "notes": "Observed arms match the pattern expected for this grid position."
+    },
+    {
+      "x_px": 694.5,
+      "y_px": 1013.0,
+      "horizontal_wire_index": 3,
+      "vertical_wire_index": 2,
+      "is_top_row": false,
+      "is_bottom_row": false,
+      "is_left_column": false,
+      "is_right_column": false,
+      "expected_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "observed_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 138.62,
+        "down": 140.35,
+        "left": 104.66,
+        "right": 92.94
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "NORMAL",
+      "notes": "Observed arms match the pattern expected for this grid position."
+    },
+    {
+      "x_px": 977.0,
+      "y_px": 1013.0,
+      "horizontal_wire_index": 3,
+      "vertical_wire_index": 3,
+      "is_top_row": false,
+      "is_bottom_row": false,
+      "is_left_column": false,
+      "is_right_column": true,
+      "expected_arms": [
+        "down",
+        "left",
+        "up"
+      ],
+      "observed_arms": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 135.88,
+        "down": 114.45,
+        "left": 90.96,
+        "right": 81.81
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "POTENTIALLY_ANOMALOUS",
+      "notes": "OBSERVATION - HUMAN VERIFICATION REQUIRED. observed but not expected for this grid position: ['right']. This flags a visual mismatch only - it is not a defect, weld-quality, or material-property claim."
+    },
+    {
+      "x_px": 135.5,
+      "y_px": 1310.0,
+      "horizontal_wire_index": 4,
+      "vertical_wire_index": 0,
+      "is_top_row": false,
+      "is_bottom_row": true,
+      "is_left_column": true,
+      "is_right_column": false,
+      "expected_arms": [
+        "right",
+        "up"
+      ],
+      "observed_arms": [
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 92.66,
+        "down": 161.87,
+        "left": 107.13,
+        "right": 104.9
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "POTENTIALLY_ANOMALOUS",
+      "notes": "OBSERVATION - HUMAN VERIFICATION REQUIRED. observed but not expected for this grid position: ['left']. This flags a visual mismatch only - it is not a defect, weld-quality, or material-property claim."
+    },
+    {
+      "x_px": 405.5,
+      "y_px": 1310.0,
+      "horizontal_wire_index": 4,
+      "vertical_wire_index": 1,
+      "is_top_row": false,
+      "is_bottom_row": true,
+      "is_left_column": false,
+      "is_right_column": false,
+      "expected_arms": [
+        "left",
+        "right",
+        "up"
+      ],
+      "observed_arms": [
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 123.08,
+        "down": 153.17,
+        "left": 77.5,
+        "right": 63.57
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "NORMAL",
+      "notes": "Observed arms match the pattern expected for this grid position."
+    },
+    {
+      "x_px": 694.5,
+      "y_px": 1310.0,
+      "horizontal_wire_index": 4,
+      "vertical_wire_index": 2,
+      "is_top_row": false,
+      "is_bottom_row": true,
+      "is_left_column": false,
+      "is_right_column": false,
+      "expected_arms": [
+        "left",
+        "right",
+        "up"
+      ],
+      "observed_arms": [
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 137.64,
+        "down": 165.1,
+        "left": 76.02,
+        "right": 71.7
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "NORMAL",
+      "notes": "Observed arms match the pattern expected for this grid position."
+    },
+    {
+      "x_px": 977.0,
+      "y_px": 1310.0,
+      "horizontal_wire_index": 4,
+      "vertical_wire_index": 3,
+      "is_top_row": false,
+      "is_bottom_row": true,
+      "is_left_column": false,
+      "is_right_column": true,
+      "expected_arms": [
+        "left",
+        "up"
+      ],
+      "observed_arms": [
+        "left",
+        "right",
+        "up"
+      ],
+      "arm_intensities": {
+        "up": 140.47,
+        "down": 185.11,
+        "left": 114.6,
+        "right": 93.86
+      },
+      "otsu_threshold_used": 142.0,
+      "status": "POTENTIALLY_ANOMALOUS",
+      "notes": "OBSERVATION - HUMAN VERIFICATION REQUIRED. observed but not expected for this grid position: ['right']. This flags a visual mismatch only - it is not a defect, weld-quality, or material-property claim."
+    }
+  ]
+}

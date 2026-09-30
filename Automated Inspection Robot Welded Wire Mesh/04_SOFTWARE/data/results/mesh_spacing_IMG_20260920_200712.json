@@ -1,0 +1,112 @@
+{
+  "source_name": "IMG_20260920_200712.jpg",
+  "num_vertical_spacings": 4,
+  "num_horizontal_spacings": 3,
+  "mean_vertical_spacing_px": 270.0,
+  "mean_vertical_spacing_mm": 24.55,
+  "mean_horizontal_spacing_px": 280.5,
+  "mean_horizontal_spacing_mm": null,
+  "vertical_spacings": [
+    {
+      "axis": "vertical",
+      "index": 0,
+      "wire_index_1": 0,
+      "wire_index_2": 1,
+      "wire_position_1_px": 230.0,
+      "wire_position_2_px": 486.5,
+      "pixel_spacing": 256.5,
+      "measured_spacing": 23.32,
+      "calibration_used": 11.0,
+      "calibration_status": "PROVISIONAL",
+      "location_px": 358.25,
+      "notes": "Converted using vertical calibration 11.0 px/mm (PROVISIONAL). Source: Validated single-axis vertical calibration (11.0 px/mm, provisional from ruler)."
+    },
+    {
+      "axis": "vertical",
+      "index": 1,
+      "wire_index_1": 1,
+      "wire_index_2": 2,
+      "wire_position_1_px": 486.5,
+      "wire_position_2_px": 760.25,
+      "pixel_spacing": 273.75,
+      "measured_spacing": 24.89,
+      "calibration_used": 11.0,
+      "calibration_status": "PROVISIONAL",
+      "location_px": 623.38,
+      "notes": "Converted using vertical calibration 11.0 px/mm (PROVISIONAL). Source: Validated single-axis vertical calibration (11.0 px/mm, provisional from ruler)."
+    },
+    {
+      "axis": "vertical",
+      "index": 2,
+      "wire_index_1": 2,
+      "wire_index_2": 3,
+      "wire_position_1_px": 760.25,
+      "wire_position_2_px": 1013.0,
+      "pixel_spacing": 252.75,
+      "measured_spacing": 22.98,
+      "calibration_used": 11.0,
+      "calibration_status": "PROVISIONAL",
+      "location_px": 886.62,
+      "notes": "Converted using vertical calibration 11.0 px/mm (PROVISIONAL). Source: Validated single-axis vertical calibration (11.0 px/mm, provisional from ruler)."
+    },
+    {
+      "axis": "vertical",
+      "index": 3,
+      "wire_index_1": 3,
+      "wire_index_2": 4,
+      "wire_position_1_px": 1013.0,
+      "wire_position_2_px": 1310.0,
+      "pixel_spacing": 297.0,
+      "measured_spacing": 27.0,
+      "calibration_used": 11.0,
+      "calibration_status": "PROVISIONAL",
+      "location_px": 1161.5,
+      "notes": "Converted using vertical calibration 11.0 px/mm (PROVISIONAL). Source: Validated single-axis vertical calibration (11.0 px/mm, provisional from ruler)."
+    }
+  ],
+  "horizontal_spacings": [
+    {
+      "axis": "horizontal",
+      "index": 0,
+      "wire_index_1": 0,
+      "wire_index_2": 1,
+      "wire_position_1_px": 135.5,
+      "wire_position_2_px": 405.5,
+      "pixel_spacing": 270.0,
+      "measured_spacing": null,
+      "calibration_used": null,
+      "calibration_status": "UNCALIBRATED",
+      "location_px": 270.5,
+      "notes": "Preserving documented position-dependent horizontal calibration limitation; no single global horizontal scale invented. Spacing reported in pixels only."
+    },
+    {
+      "axis": "horizontal",
+      "index": 1,
+      "wire_index_1": 1,
+      "wire_index_2": 2,
+      "wire_position_1_px": 405.5,
+      "wire_position_2_px": 694.5,
+      "pixel_spacing": 289.0,
+      "measured_spacing": null,
+      "calibration_used": null,
+      "calibration_status": "UNCALIBRATED",
+      "location_px": 550.0,
+      "notes": "Preserving documented position-dependent horizontal calibration limitation; no single global horizontal scale invented. Spacing reported in pixels only."
+    },
+    {
+      "axis": "horizontal",
+      "index": 2,
+      "wire_index_1": 2,
+      "wire_index_2": 3,
+      "wire_position_1_px": 694.5,
+      "wire_position_2_px": 977.0,
+      "pixel_spacing": 282.5,
+      "measured_spacing": null,
+      "calibration_used": null,
+      "calibration_status": "UNCALIBRATED",
+      "location_px": 835.75,
+      "notes": "Preserving documented position-dependent horizontal calibration limitation; no single global horizontal scale invented. Spacing reported in pixels only."
+    }
+  ],
+  "notes": "Vertical spacing: 4 intervals measured (PROVISIONAL); Horizontal spacing: 3 intervals measured (UNCALIBRATED)."
+}
